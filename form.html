@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <!-- A simple Registration Form -->
+    <h2> Fill the following form to Register </h2>
+    <form action="">
+        <!-- Candidates' name -->
+        <label for="fname"> First Name </label>
+        <input type="text" id="fname" name="F_name" placeholder="enter first name"> <br><br>
+
+        <label for="Lname">Last Name </label>
+        <input type="text"id="Lname" name="L_name" placeholder="enter last name"> <br><br>
+        <label for="email"> Email Address </label>
+        <input type="email" id="email" name="mail" placeholder= "enter email address"> <br><br>
+
+        <!-- Chose your class -->
+        <label for="class">Select Class</label>
+        <select name="class" id="class">
+            <option value="year 1"> First Year </option>
+            <option value="year 2"> Second Year </option>
+            <option value="year 3"> Third Year </option>
+            <option value="year 4"> Fourth Year </option>
+        </select>
+        <br>
+        <br>
+        <!-- Choose your program -->
+        <label for="program">Program</label>
+        <select name="program" id="program">
+            <option value="reg">Regular</option>
+            <option value="wkd">Weekend</option>
+            <option value="cep">CEP</option>
+            <option value="sac">Sandwich</option>
+        </select>
+        <br>
+        <br>
+        <!-- Select your department -->
+        <label for="dept">Department</label>
+        <select name="dept" id="dept">
+            <option value="Mat">Mathematics</option>
+            <option value="Zoo">Zoology</option>
+            <option value="CENG">Civil Engineering</option>
+            <option value="Micro">Micro Biology</option>
+        </select>
+        <br>
+        <br>
+        <!-- Select your Gender -->
+        <label> Gender </label>
+        <input type="radio" id="male" name="gender"/>
+        <label for="male"> Male </label>
+        <input type="radio" id="female" name="gender"/>
+        <label for="female"> Female </label>
+        <br>
+        <br>
+
+        <!-- date of birth -->
+        <label for="birthday"> Birthday </label>
+        <input type="date" id="birthday" name="birthday" />
+        <br/>
+        <br>
+
+        <!-- Register your courses -->
+        <label for="Reg"> Register your courses </label> <br>
+        <br>
+        <input type="checkbox" name="html" id="html">
+        <label for="html"> HTML </label> <br>
+
+        <input type="checkbox" name="css" id="css">
+        <label for="css"> CSS </label> <br>
+
+        <input type="checkbox" name="js" id="js">
+        <label for="js"> JavaScript </label> <br>
+
+        <input type="checkbox" name="python" id="py">
+        <label for="py"> Python </label> <br>
+
+        <input type="checkbox" name="React" id="React">
+        <label for="React"> React Js </label> <br> <br>
+
+        <input type="submit" value="Register">
+     </form>
+</body>
+</html>
